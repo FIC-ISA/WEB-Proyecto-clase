@@ -1,0 +1,20 @@
+/************************************************************************
+// Proyecto FIC
+// Version v0.10-actualizacionPacientes
+************************************************************************/
+
+/************************************************************************/
+
+.listaPacientes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+
+  border: solid 2px var(--color-primario);
+  padding: 0.2rem;
+}
+
+.itemPaciente:hover {
+  background-color: var(--color-secundario);
+}

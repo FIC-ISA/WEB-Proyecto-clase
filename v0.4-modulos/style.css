@@ -1,0 +1,44 @@
+/************************************************************************
+// Proyecto FIC
+// Version v0.4-modulos
+************************************************************************/
+
+/************************************************************************/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-fondo: hsl(60, 74%, 86%);
+  --color-primario: hsl(240, 82%, 58%);
+  --color-secundario: hsl(240, 68%, 78%);
+  --color-sobre-primario: white;
+  --color-sobre-secundario: white;
+}
+
+/************************************************************************/
+
+.lienzo {
+  background-color: var(--color-fondo);
+  min-height: 100vh;
+}
+
+.cabecera {
+  background-color: var(--color-primario);
+  color: var(--color-sobre-primario);
+  padding: 2rem;
+  text-align: center;
+}
+
+.cuerpo {
+  padding: 1.5rem;
+  height: 70%;
+}
+
+.pie {
+  background-color: var(--color-secundario);
+  color: var(--color-sobre-secundario);
+  padding: 0.7rem;
+}

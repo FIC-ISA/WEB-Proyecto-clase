@@ -1,0 +1,47 @@
+/************************************************************************
+// Proyecto FIC
+// Version v0.12-bajasPacientes
+************************************************************************/
+
+/************************************************************************/
+.lienzo {
+  background-color: var(--color-fondo);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.cabecera {
+  background-color: var(--color-primario);
+  color: var(--color-sobre-primario);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.menu {
+  margin: 0.8em;
+}
+
+.opcionesMenu {
+  list-style: none;
+  display: flex;
+  gap: 0.8rem;
+}
+
+.itemOpcionesMenu {
+  background-color: var(--color-secundario);
+  color: var(--color-sobre-secundario);
+  padding: 0.3rem 0.6rem;
+}
+
+.cuerpo {
+  padding: 1.5rem;
+  flex-grow: 1;
+}
+
+.pie {
+  background-color: var(--color-secundario);
+  color: var(--color-sobre-secundario);
+  padding: 0.7rem;
+}

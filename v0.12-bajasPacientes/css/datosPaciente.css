@@ -1,0 +1,30 @@
+/************************************************************************
+// Proyecto FIC
+// Version v0.12-bajasPacientes
+************************************************************************/
+
+/************************************************************************/
+
+.datosPaciente {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.3rem;
+}
+
+.control {
+  display: flex;
+  flex-direction: row;
+  gap: 0.4rem;
+}
+
+.boton {
+  padding: 0.3rem 0.5rem;
+}
+
+.botones {
+  margin-top: 0.3rem;
+  display: flex;
+
+  gap: 0.5rem;
+}

@@ -1,0 +1,41 @@
+/************************************************************************
+// Proyecto FIC
+// Version v0.12-bajasPacientes
+************************************************************************/
+
+/************************************************************************/
+
+.listaPacientes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+
+  border: solid 2px var(--color-primario);
+  padding: 0.2rem;
+}
+
+.itemPaciente {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+}
+
+.nombrePaciente:hover {
+  background-color: var(--color-secundario);
+}
+
+.botonNuevoPaciente {
+  margin-top: 0.8rem;
+  padding: 0.3rem 0.5rem;
+}
+
+.controlBajaPaciente {
+  background-color: var(--color-aviso);
+  color: var(--color-sobre-aviso);
+  padding: 0.2rem;
+}
+
+.controlBajaPaciente:hover {
+  background-color: var(--color-aviso-oscuro);
+}

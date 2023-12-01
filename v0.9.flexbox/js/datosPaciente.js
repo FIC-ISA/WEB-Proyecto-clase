@@ -117,6 +117,7 @@ function insertaGeneroPacienteEnContenedor() {
   selectNode.innerHTML = optionsHTML;
 }
 
+/*
 function insertaBotonVolverEnContenedor() {
   const botonNode = document.createElement("button");
   const datosPacienteNode = document.getElementById("datosPaciente");
@@ -126,6 +127,7 @@ function insertaBotonVolverEnContenedor() {
   botonNode.id = "botonVolver";
   botonNode.classList = "boton";
 }
+*/
 
 function creaLabelNode(texto, valueFor) {
   const labelNode = document.createElement("label");

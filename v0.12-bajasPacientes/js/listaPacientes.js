@@ -133,6 +133,10 @@ function respuestaPulsarEnPaciente(e) {
   }
 }
 
+
+
+//////////
+
 function respuestaPulsarBotonNuevoPaciente() {
   suprimeDelDOMListaPacientes();
   actualizaVistaActual("datosPaciente");
